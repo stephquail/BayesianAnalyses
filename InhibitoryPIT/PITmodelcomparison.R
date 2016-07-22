@@ -61,43 +61,12 @@ g_exp2iPITbias <- exp2general$in.diff/(exp2general$in.diff + exp2general$in.same
 ## N = number of data points in our vector of our data
 ## text = label of the data. Used in the graph title outputs. 
 
-# y = exp1ePITbias
-# N = length(exp1ePITbias)
-# text = "exp1ePITbias"
-# 
-# y = exp1iPITbias
-# N = length(exp1iPITbias)
-# text = "exp1iPITbias"
-# 
-# y = exp2ePITbias
-# N = length(exp2ePITbias)
-# text = "exp2ePITbias"
-# 
-# y = exp2iPITbias
-# N = length(exp2iPITbias)
-# text = "exp2iPITbias"
-# 
-# y = sp_exp2ePITbias
-# N = length(sp_exp2ePITbias)
-# text = "sp_exp2ePITbias"
-# 
-# y = sp_exp2iPITbias
-# N = length(sp_exp2iPITbias)
-# text = "sp_exp2iPITbias"
-# 
-# y = g_exp2ePITbias
-# N = length(g_exp2ePITbias)
-# text = "g_exp2ePITbias"
-# 
-# y = g_exp2iPITbias
-# N = length(g_exp2iPITbias)
-# text = "g_exp2iPITbias"
-
 
 # For saving the priors use the 
 # text = "priors"
 
-
+# For each of the different data samples that we want to run through this Bayesian Model Comparison. 
+# Put the y, N and text variables into a list. 
 
 exp1ePIT <- list(
   y = exp1ePITbias,
